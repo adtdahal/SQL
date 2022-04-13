@@ -1,0 +1,14 @@
+SELECT		
+	D.name AS genre,	
+	AVG(A.rental_duration) AS avg_rental_duration,	
+	AVG(A.rental_rate) AS avg_rental_rate,	
+	AVG(A.replacement_cost) AS avg_replacement_cost,	
+	AVG(A.length) as avg_length,	
+	COUNT(DISTINCT B.film_id) AS film_count	
+FROM film A		
+INNER JOIN inventory B ON A.film_id = B.film_id		
+INNER JOIN film_category C ON B.film_id = C.film_id		
+INNER JOIN category D ON C.category_id = D.category_id		
+INNER JOIN rental E ON B.inventory_id=E.inventory_id		
+GROUP BY genre		
+ORDER BY film_count DESC
