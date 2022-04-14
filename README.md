@@ -7,7 +7,7 @@ management team is planning to use its existing movie licenses to launch an onli
 service in order to stay competitive
 
 
-## Objective:
+## Objective
 The goal of this project is to launch the new online video rental service while answering the following key business questions:
 
 ● What was the average rental duration for all videos?  
