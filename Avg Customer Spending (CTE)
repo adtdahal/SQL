@@ -4,7 +4,7 @@ WITH average_paid_cte (first_name, last_name, country, city, sum_amount) AS
  	B.last_name,
  	E.country,
  	D.city,
-	SUM(amount) as total_amount_paid
+	SUM(amount) AS total_amount_paid
 FROM payment A	
 INNER JOIN customer B ON A.customer_id=B.customer_id	
 INNER JOIN address C ON B.address_id=C.address_id	
