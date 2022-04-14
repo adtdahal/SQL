@@ -17,5 +17,9 @@ The goal of this project is to launch the new online video rental service while 
 ● Where are customers with a high lifetime value based?
 
 ## Data
-● Data set  
-● Data dictionary
+The data set contains information about Rockbuster's film inventory, customers, and payments, among other things. The data set will need to be loaded into the PostgreSQL database while keeping the following points in mind:
+
+● It's around 3MB and contains several files  
+● A relationship exists between two tables if a column name is present in both tables
+
+Download the [Rockbuster data set](
