@@ -22,4 +22,9 @@ The data set contains information about Rockbuster's film inventory, customers, 
 ● It's around 3MB and contains several files  
 ● A relationship exists between two tables if a column name is present in both tables
 
-[Download the Rockbuster data set](https://github.com/adtdahal/SQL-MovieRentalProject/blob/main/Rockbuster%20Data.zip)
+[Download the Rockbuster data set](https://github.com/adtdahal/SQL-MovieRentalProject/blob/main/Rockbuster%20Data.zip)  
+
+## Deliverables
+The final project consisted of the following deliverables:  
+
+● [Data Dictionary](https://github.com/adtdahal/SQL-MovieRentalProject/blob/main/3.10%20Data%20Dictionary.pdf)
