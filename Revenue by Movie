@@ -2,7 +2,7 @@ SELECT film.title,
        SUM(amount) AS total
 FROM payment
 INNER JOIN rental ON payment.rental_id=rental.rental_id
-INNER join inventory ON rental.inventory_id=inventory.inventory_id
+INNER JOIN inventory ON rental.inventory_id=inventory.inventory_id
 INNER JOIN film ON inventory.film_id=film.film_id
-GROUP by film.title
+GROUP BY film.title
 ORDER BY total DESC
