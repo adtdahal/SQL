@@ -27,4 +27,5 @@ The data set contains information about Rockbuster's film inventory, customers, 
 ## Deliverables
 The final project consisted of the following deliverables:  
 
-● [Data Dictionary](https://github.com/adtdahal/SQL-MovieRentalProject/blob/main/3.10%20Data%20Dictionary.pdf)
+● [Data Dictionary](https://github.com/adtdahal/SQL-MovieRentalProject/blob/main/3.10%20Data%20Dictionary.pdf)  
+● [PowerPoint Presentation](https://github.com/adtdahal/SQL-MovieRentalProject/blob/main/Rockbuster%20Stealth%20LLC.pdf)
